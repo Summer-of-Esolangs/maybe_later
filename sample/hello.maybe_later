@@ -1,0 +1,7 @@
+local x = 0
+
+when x is 3{
+ print "Hello, world!"
+}
+
+x = 3
