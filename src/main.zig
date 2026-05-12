@@ -4,3 +4,7 @@ const Io = std.Io;
 pub fn main(init: std.process.Init) !void {
     _ = init;
 }
+
+test {
+    _ = @import("tokenizer.zig");
+}
