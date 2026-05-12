@@ -37,6 +37,7 @@ pub const KeywordLookup = std.StaticStringMap(Keyword).initComptime(.{
 
     .{ "when", .when },
     .{ "is", .is },
+    .{ "local", .local },
 });
 
 pub const TokenTag = enum {
